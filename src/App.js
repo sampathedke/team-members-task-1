@@ -5,6 +5,7 @@ import './App.css';
 import TeamSectionPage from './TeamSectionPage';
 
 
+
 const Header=()=>{
   return(
     <div className="navbar bg-[#FA7D19] text-white  px-16">
@@ -33,6 +34,7 @@ function App() {
      
      <p className='about-1'>Welcome to VeriTech Software IT Services, where a dedicated team of professionals works together to bring innovation, creativity and expertise to software industry, get to know the individuals who make our company thrive.</p>
       <TeamSectionPage/>
+     
       <div className="text-center py-8">
                 <p>Copyright © 2024 - All right reserved by VeriTech</p>
             </div>

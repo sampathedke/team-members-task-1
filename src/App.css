@@ -43,9 +43,10 @@ h1{
 }
 
 .team-member-card:hover {
-  transform: translateY(-10px); /* Move card up on hover */
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
-  color: rgb(75, 70, 70);
+  /* transform: translateY(-10px); Move card up on hover */
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);  */
+  /* Increase shadow on hover */
+  color: rgb(220, 227, 255);
 }
 
 .team-member-card img {
@@ -60,6 +61,7 @@ h1{
 }
 .team-member-card:hover img {
   filter: none;  /* Remove grayscale filter on hover */
+  transform: scale(1.1);
 }
 
 .team-member-card h2 {
@@ -240,3 +242,13 @@ text-align: center;
   padding-left: 40px;
   padding-right: 40px;
 }
+.icons{
+  display: flex;
+  align-items: center;
+}
+
+.icons1:hover,.icons2:hover, .icons3:hover{
+transform: scale(1.1);
+
+}
+
