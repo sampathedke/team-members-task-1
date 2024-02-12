@@ -16,7 +16,7 @@ const TeamMemberCard = ({ member }) => {
         setShowPopup(false);
       }
     };
-
+document.title='Veritech'
     document.addEventListener('mousedown', handleOutsideClick);
 
     return () => {
